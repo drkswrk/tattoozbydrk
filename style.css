@@ -1,0 +1,142 @@
+/* -------------------------
+   TATTOOZ BY DRK
+   Brett Gordon
+--------------------------*/
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#0b0b0b;
+
+color:white;
+
+font-family:Poppins,sans-serif;
+
+line-height:1.6;
+
+}
+
+header{
+
+text-align:center;
+
+padding:60px 20px;
+
+background:linear-gradient(180deg,#111,#000);
+
+border-bottom:2px solid gold;
+
+}
+
+header h1{
+
+font-size:3rem;
+
+font-family:Cinzel,serif;
+
+color:gold;
+
+letter-spacing:4px;
+
+}
+
+header p{
+
+margin-top:10px;
+
+font-size:1.2rem;
+
+color:#cccccc;
+
+}
+
+#hero{
+
+text-align:center;
+
+padding:60px 20px;
+
+}
+
+.logo{
+
+width:220px;
+
+max-width:80%;
+
+border-radius:50%;
+
+box-shadow:0 0 35px gold;
+
+margin-bottom:30px;
+
+}
+
+#hero h2{
+
+font-size:2.2rem;
+
+margin-bottom:15px;
+
+color:white;
+
+}
+
+#hero p{
+
+max-width:700px;
+
+margin:auto;
+
+color:#cccccc;
+
+font-size:18px;
+
+}
+
+section{
+
+padding:70px 20px;
+
+}
+
+h2{
+
+text-align:center;
+
+font-size:2rem;
+
+margin-bottom:35px;
+
+color:gold;
+
+font-family:Cinzel,serif;
+
+}
+
+#payments{
+
+text-align:center;
+
+}
+
+.btn{
+
+display:block;
+
+width:320px;
+
+max-width:90%;
+
+margin:18px auto;
+
+padding:18px;
+
+text-decoration:none;
+
+font-size:
