@@ -65,9 +65,12 @@ z-index:2;
 animation:fade 1.5s;
 }
 
-.logo{
-width:180px;
-margin-bottom:20px;
+.logo {
+    width: 220px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
 }
 
 .hero h1{
