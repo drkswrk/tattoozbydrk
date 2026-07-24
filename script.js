@@ -1,28 +1,35 @@
-function copyChime() {
-    navigator.clipboard.writeText("$tattoozbydrk")
-    .then(function () {
-        alert("✅ Chime tag copied!\n\n$tattoozbydrk");
-    })
-    .catch(function () {
-        alert("Your Chime tag is:\n\n$tattoozbydrk");
-    });
+function copyChime(){
+
+navigator.clipboard.writeText("$tattoozbydrk");
+
+alert("Chime tag copied!");
+
 }
 
-// Fade in sections as you scroll
-const sections = document.querySelectorAll("section");
+const observer = new IntersectionObserver(entries=>{
 
-const observer = new IntersectionObserver((entries)=>{
-    entries.forEach(entry=>{
-        if(entry.isIntersecting){
-            entry.target.style.opacity="1";
-            entry.target.style.transform="translateY(0)";
-        }
-    });
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity=1;
+
+entry.target.style.transform="translateY(0px)";
+
+}
+
 });
 
-sections.forEach(section=>{
-    section.style.opacity="0";
-    section.style.transform="translateY(40px)";
-    section.style.transition="all .8s ease";
-    observer.observe(section);
+});
+
+document.querySelectorAll("section").forEach(section=>{
+
+section.style.opacity=0;
+
+section.style.transform="translateY(60px)";
+
+section.style.transition="1s";
+
+observer.observe(section);
+
 });
