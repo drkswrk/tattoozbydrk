@@ -1,96 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TATTOOZ BY DRK | Brett Gordon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>TATTOOZ BY DRK | Luxury Tattoo Studio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<meta name="description" content="Luxury tattoo studio by Brett Gordon. View portfolio, book appointments, and pay securely online.">
+
+<meta name="keywords" content="tattoo artist, tattoos, tattoo shop, Brett Gordon, Tattooz by DRK">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
 
 <header>
 
-<img src="Logo.png" class="logo" alt="TATTOOZ BY DRK Logo">
+<nav>
 
-<h1>TATTOOZ BY DRK</h1>
+<h2>TATTOOZ BY DRK</h2>
 
-<p>Custom Tattoos • Black & Grey • Realism • Professional Ink</p>
+<ul>
 
-<div class="hero-buttons">
+<li><a href="#portfolio">Portfolio</a></li>
 
-<a class="btn cash" href="https://cash.app/$BGordon100" target="_blank">
-💵 Cash App
-</a>
+<li><a href="#payments">Payments</a></li>
 
-<a class="btn venmo" href="https://venmo.com/Brett-Gordon-43" target="_blank">
-💙 Venmo
-</a>
+<li><a href="#contact">Contact</a></li>
 
-<a class="btn paypal" href="https://www.paypal.com/paypalme/tattoozbydrk" target="_blank">
-🅿️ PayPal
-</a>
+</ul>
 
-<button class="btn chime" onclick="copyChime()">
-💚 Copy Chime Tag
-</button>
-
-</div>
+</nav>
 
 </header>
 
-<section id="hero">
+<section class="hero">
 
-    <img src="Logo.png" alt="TATTOOZ BY DRK Logo" class="logo">
+<div class="overlay"></div>
 
-    <h2>Professional Tattoo Artist</h2>
+<div class="hero-content">
 
-    <p>
-        Black & Grey • Realism • Custom Designs • Quality Work
-    </p>
+<img src="logo.png" class="logo">
+
+<h1>TATTOOZ BY DRK</h1>
+
+<p>Luxury Ink. Timeless Art.</p>
+
+<a href="#contact" class="btn">Book Appointment</a>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h2>Portfolio</h2>
+
+<div class="gallery">
+
+<img src="images/tattoo1.jpg">
+
+<img src="images/tattoo2.jpg">
+
+<img src="images/tattoo3.jpg">
+
+<img src="images/tattoo4.jpg">
+
+<img src="images/tattoo5.jpg">
+
+<img src="images/tattoo6.jpg">
+
+</div>
 
 </section>
 
 <section id="payments">
 
-<h2>💳 Payment Options</h2>
+<h2>Payments</h2>
 
-<a class="btn cash" href="https://cash.app/$BGordon100" target="_blank">
-Cash App
+<div class="payment-grid">
+
+<a href="https://cash.app/$BGordon100" target="_blank" class="card">
+
+<i class="fas fa-dollar-sign"></i>
+
+<h3>Cash App</h3>
+
 </a>
 
-<a class="btn venmo" href="https://venmo.com/Brett-Gordon-43" target="_blank">
-Venmo
+<a href="https://venmo.com/Brett-Gordon-43" target="_blank" class="card">
+
+<i class="fas fa-wallet"></i>
+
+<h3>Venmo</h3>
+
 </a>
 
-<a class="btn paypal" href="https://www.paypal.com/paypalme/tattoozbydrk" target="_blank">
-PayPal
+<a href="https://www.paypal.com/paypalme/tattoozbydrk" target="_blank" class="card">
+
+<i class="fab fa-paypal"></i>
+
+<h3>PayPal</h3>
+
 </a>
 
-<button class="btn chime" onclick="copyChime()">
-Copy Chime Tag
-</button>
+<div class="card">
+
+<i class="fas fa-money-check"></i>
+
+<h3>Chime</h3>
+
+<p id="chime">$tattoozbydrk</p>
+
+<button onclick="copyChime()">Copy Chime Tag</button>
+
+</div>
+
+</div>
 
 </section>
 
-<section id="gallery">
+<section id="qr">
 
-<h2>Portfolio</h2>
+<h2>Scan To Pay</h2>
 
-<div class="gallery-grid">
+<p>Add your payment QR images into the folder and rename them:</p>
 
-<img src="Tattoo1.jpg" alt="Tattoo">
+<div class="qr-grid">
 
-<img src="Tattoo2.jpg" alt="Tattoo">
+<img src="qr/cashapp.png">
 
-<img src="Tattoo3.jpg" alt="Tattoo">
+<img src="qr/venmo.png">
 
-<img src="Tattoo4.jpg" alt="Tattoo">
+<img src="qr/paypal.png">
 
 </div>
 
@@ -102,25 +154,33 @@ Copy Chime Tag
 
 <p><strong>Brett Gordon</strong></p>
 
-<p>📞 409-202-1076</p>
+<p><a href="tel:4092021076">409-202-1076</a></p>
 
-<p>📧 drkswrk@gmail.com</p>
+<p><a href="mailto:drkswrk@gmail.com">drkswrk@gmail.com</a></p>
 
-<p>
-Instagram:
-<a href="https://www.instagram.com/tattoozbydrk" target="_blank">
-@tattoozbydrk
+<div class="socials">
+
+<a href="https://instagram.com/tattoozbydrk" target="_blank">
+
+<i class="fab fa-instagram"></i>
+
 </a>
-</p>
 
-<p>
-Facebook:
 <a href="https://facebook.com/brettgordondrk" target="_blank">
-Brett Gordon DRK
+
+<i class="fab fa-facebook"></i>
+
 </a>
-</p>
+
+</div>
 
 </section>
+
+<footer>
+
+<p>© 2026 TATTOOZ BY DRK • All Rights Reserved</p>
+
+</footer>
 
 <script src="script.js"></script>
 
