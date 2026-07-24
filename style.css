@@ -11,13 +11,17 @@ box-sizing:border-box;
 
 body{
 
-background:#0b0b0b;
+margin:0;
+
+background:#080808;
 
 color:white;
 
 font-family:Poppins,sans-serif;
 
-line-height:1.6;
+width:100%;
+
+overflow-x:hidden;
 
 }
 
